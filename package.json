@@ -1,8 +1,8 @@
 {
-  "name": "1.-primeiros-passos-com-javascript",
+  "name": "dio_formacao_javascript",
   "version": "1.0.0",
   "description": "",
-  "main": "Exercicio 01.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
