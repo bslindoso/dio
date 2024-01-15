@@ -1,0 +1,15 @@
+{
+  "name": "1.-primeiros-passos-com-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Exercicio 01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
