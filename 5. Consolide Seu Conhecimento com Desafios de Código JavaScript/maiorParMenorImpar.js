@@ -1,4 +1,4 @@
-const { gets, print, not } = require('../!Aplicativos/utils')
+const { gets, print, not } = require('../apps/utils')
 
 const lista = gets('intlist', 10)
 print('================ NÚMEROS ===============')

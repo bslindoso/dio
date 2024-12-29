@@ -1,7 +1,7 @@
 
 /**
  * @fileoverview Programa para avaliação de média escolar
- * @requires ../!Aplicativos/utils
+ * @requires ../apps/utils
  * 
  * @description
  * Este programa realiza:
@@ -12,7 +12,7 @@
  * 
  */
 
-const { gets, print } = require('../!Aplicativos/utils')
+const { gets, print } = require('../apps/utils')
 
 const media = gets('float', 10)
 const aluno = gets('name')
