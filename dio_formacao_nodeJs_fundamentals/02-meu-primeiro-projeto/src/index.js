@@ -1,0 +1,1 @@
+console.log("ola mundo, me chamo bruno lindoso")

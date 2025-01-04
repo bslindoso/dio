@@ -1,11 +1,11 @@
 {
   "name": "meu-primeiro-projeto",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "bruno-lindoso",
   "license": "ISC",
-  "description": ""
+  "description": "meu-primeiro-projeto - Projeto inicial para aprendizado de Node.js, explorando conceitos fundamentais da plataforma e suas principais funcionalidades através de exercícios práticos"
 }
