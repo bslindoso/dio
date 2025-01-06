@@ -173,7 +173,6 @@ async function playRaceEngine(character1, character2) {
     }
 
     // pause game
-    console.log('\nPressione qualquer tecla para continuar...')
     await pauseForKeypress()
   }
 }
@@ -204,6 +203,7 @@ async function declareWinner(character1, character2) {
 }
 
 async function pauseForKeypress() {
+  console.log('\nPressione qualquer tecla para continuar...')
   return new Promise(resolve => {
     process.stdin.setRawMode(true)
     process.stdin.once('data', () => {
@@ -227,7 +227,6 @@ function generateHeader(text, char = '-', width = 50) {
 
   generateHeader(`🏁🚨 Corrida entre ${player1.NAME} e ${player2.NAME} começou...`)
   // pause game
-  console.log('\nPressione qualquer tecla para continuar...')
   await pauseForKeypress()
 
   await playRaceEngine(player1, player2);
