@@ -4,5 +4,7 @@ Criar um carrinho de compras baseado no carrinho da shopee, onde o carrinho arma
 e faça o cálculo de subitens automaticamente
 
 // dominio da aplicação: carrinho de compras
-// carrinho
-// itens
+
+// entidades representadas:
+// -> carrinho = cart.js
+// -> itens = item.js
