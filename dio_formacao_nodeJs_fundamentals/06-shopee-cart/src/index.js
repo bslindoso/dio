@@ -17,14 +17,26 @@ const item2 = await createItem("hotwheels lamborghini", 39.99, 3)
 // adiciona 2 itens ao carrinho
 await cartService.addItem(myCart, item1)
 await cartService.addItem(myCart, item2)
-await cartService.displayCart(myCart)
-// deleta 2 itens do carrinho
-await cartService.deleteItem(myCart, item1)
-await cartService.deleteItem(myCart, item2)
+
+await cartService.removeItem(myCart, item2)
+await cartService.removeItem(myCart, item2)
+await cartService.removeItem(myCart, item2)
+
 await cartService.displayCart(myCart)
 
-const totalCart = convertBRLCurrency(await cartService.calculateTotal(myCart))
-console.log(`Total Cart: ${totalCart}`)
+
+
+// const totalCart = convertBRLCurrency(await cartService.calculateTotal(myCart))
+// console.log(`Total Cart: ${totalCart}`)
+
+// remove um item pelo índice exibido no carrinho
+// await cartService.removeItemByIndex(myCart, 1)
+
+// deleta 2 itens do carrinho
+// await cartService.deleteItem(myCart, item1)
+// await cartService.deleteItem(myCart, item2)
+// await cartService.displayCart(myCart)
+
 
 // WISHLIST
 // await cartService.addItem(myWishList, item2)
