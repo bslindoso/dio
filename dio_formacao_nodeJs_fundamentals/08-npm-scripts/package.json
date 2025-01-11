@@ -1,5 +1,5 @@
 {
-  "name": "07-npm-packages-basic",
+  "name": "08-npm-scripts",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
