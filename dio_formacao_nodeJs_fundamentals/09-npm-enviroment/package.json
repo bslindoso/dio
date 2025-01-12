@@ -2,11 +2,16 @@
   "name": "09-npm-enviroment",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start:dev": "node --watch src/index.js"
+    "start:dev": "node --env-file=.env.dev --watch src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "chalk": "^5.4.1",
+    "log-symbols": "^7.0.0"
+  }
 }
