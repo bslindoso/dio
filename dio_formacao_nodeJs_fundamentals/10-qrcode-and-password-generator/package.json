@@ -1,0 +1,19 @@
+{
+  "name": "qrcode-and-password-generator",
+  "version": "1.0.0",
+  "description": "Kit de utilidades para devs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "clipboardy": "^4.0.0",
+    "prompt": "^1.3.0",
+    "qrcode": "^1.5.4"
+  }
+}
