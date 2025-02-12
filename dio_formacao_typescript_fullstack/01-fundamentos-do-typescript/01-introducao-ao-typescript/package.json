@@ -1,0 +1,20 @@
+{
+  "name": "dio_formacao_typescript_fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx app.ts",
+    "w": "tsx watch app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2"
+  }
+}
