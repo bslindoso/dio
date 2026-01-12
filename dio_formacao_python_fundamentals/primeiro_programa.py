@@ -1,3 +1,18 @@
-def main():
-    print("Hello World")
-main()
+def input_and_print():
+    print(f"Hello World")
+    nome = (input("Digite seu primeiro nome: " ))
+    sobrenome = (input("Digite seu sobrenome: " ))
+    
+    print("Oi", nome, sobrenome, sep=" ", end="!")
+# input_and_print()
+
+def operadores_de_identidade():
+    curso = "Curso de Python"
+    nome_curso = curso
+    nome_outro_curso = "Curso de Python"
+    saldo, limite = 200, 200
+    saldo_1, limite_1 = 200, 1000
+
+    print(f"curso is nome_curso: {curso is nome_curso}")
+    print(f"curso is nome_outro_curso: {curso is nome_outro_curso}")
+operadores_de_identidade()
