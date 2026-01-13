@@ -15,4 +15,13 @@ def operadores_de_identidade():
 
     print(f"curso is nome_curso: {curso is nome_curso}")
     print(f"curso is nome_outro_curso: {curso is nome_outro_curso}")
-operadores_de_identidade()
+# operadores_de_identidade()
+
+def estruturas_condicionais(saldo):
+    if saldo > 0:
+        print("Saldo positivo")
+    elif saldo < 0:
+        print("Saldo negativo")
+    else:
+        print("Saldo zero")
+estruturas_condicionais(0)
