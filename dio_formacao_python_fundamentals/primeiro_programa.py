@@ -24,4 +24,8 @@ def estruturas_condicionais(saldo):
         print("Saldo negativo")
     else:
         print("Saldo zero")
-estruturas_condicionais(0)
+# estruturas_condicionais(0)
+
+def estrutura_ternaria(saldo):
+    print("Saldo positivo" if saldo > 0 else "Saldo negativo")    
+estrutura_ternaria(100)
